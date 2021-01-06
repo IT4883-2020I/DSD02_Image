@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IT4483Image", "IT4483Image\IT4483Image.csproj", "{5AFD968E-2802-48DF-8EAF-5581A688AE55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AFD968E-2802-48DF-8EAF-5581A688AE55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AFD968E-2802-48DF-8EAF-5581A688AE55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AFD968E-2802-48DF-8EAF-5581A688AE55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AFD968E-2802-48DF-8EAF-5581A688AE55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55616491-EE46-4C48-B2FA-6C22F9D7B0E5}
+	EndGlobalSection
+EndGlobal

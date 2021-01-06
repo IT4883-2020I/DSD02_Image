@@ -1,0 +1,47 @@
+.drone-page {
+  height: 100vh;
+  .header {
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .title {
+      font-size: 24px;
+      text-align: left;
+      padding-left: 16px;
+      text-transform: uppercase;
+    }
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    height: calc(100% - 64px);
+  }
+  .sites {
+    &.video {
+      display: flex;
+      justify-content: center;
+      video {
+        height: 96%;
+      }
+    }
+    &.actions {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .button {
+        cursor: pointer;
+        margin: 8px;
+        padding: 16px;
+        border-radius: 8px;
+        color: #ffffff;
+        text-transform: uppercase;
+        background-color: rgb(83, 183, 241);
+        &:hover {
+          background-color: rgb(2, 157, 247);
+        }
+      }
+    }
+  }
+}
